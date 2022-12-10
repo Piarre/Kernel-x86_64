@@ -4,8 +4,8 @@ My own kernel necessarily write in ASM &amp; C.
 
 ## Prerequisites
 
-- Docker
-- Qemu
+- [Docker](https://docs.docker.com/desktop/install/windows-install/)
+- [Qemu](https://www.qemu.org/download/)
 
 ## Setup
 
