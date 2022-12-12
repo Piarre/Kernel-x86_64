@@ -2,9 +2,7 @@ FROM randomdude/gcc-cross-x86_64-elf
 
 ENV C_INCLUDE_PATH=/usr/include/
 
-RUN apt-get update 
-RUN apt-get upgrade -y
-RUN apt-get install -y nasm gcc-multilib g++-multilib xorriso grub-pc-bin grub-common build-essential libc6-dev
+RUN apt-get update && apt-get upgrade -y && apt-get install -y nasm gcc-multilib g++-multilib xorriso grub-pc-bin grub-common build-essential libc6-dev
 
 VOLUME /root/env
 WORKDIR /root/env
