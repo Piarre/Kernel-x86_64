@@ -1,6 +1,6 @@
 # Kernel-x86_64
 
-My own kernel necessarily write in ASM &amp; C.
+My own kernel necessarily written in ASM &amp; C.
 
 ## Prerequisites
 
